@@ -10,14 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QLChiTieuKotlin">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailedActivity"
             android:exported="false" />
         <activity
             android:name=".AddTransactionActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
